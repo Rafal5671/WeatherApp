@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temperature_units_array">
+        <item>Celsius (°C)</item>
+        <item>Fahrenheit (°F)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+
+    <!-- Array for wind speed units -->
+    <string-array name="wind_units_array">
+        <item>Metry na sekundę (m/s)</item>
+        <item>Kilometry na godzinę (km/h)</item>
+        <item>Mile na godzinę (mph)</item>
+    </string-array>
+
+    <!-- Array for pressure units -->
+    <string-array name="pressure_units_array">
+        <item>Hektopaskal (hPa)</item>
+        <item>Milibar (mbar)</item>
+        <item>Milimetr słupa rtęci (mmHg)</item>
+        <item>Funt na cal kwadratowy (PSI)</item>
+    </string-array>
+    <string-array name="wind_direction_array">
+        <item>Kierunki geograficzne</item>
+        <item>Stopnie</item>
+    </string-array>
+    <string-array name="visibility_unit_array">
+        <item>Kilometry (km)</item>
+        <item>Metry (m)</item>
+        <item>Mile (mil)</item>
+    </string-array>
+</resources>

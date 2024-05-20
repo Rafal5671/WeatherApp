@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1C1E1F">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maks 5 miast. Długie wciśnięcie aby usunąć"
+        android:padding="4dp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/editTextCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj nazwę miasta"
+        android:padding="8dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/buttonAddCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"/>
+
+    <ListView
+        android:id="@+id/listViewCities"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"/>
+
+</LinearLayout>
